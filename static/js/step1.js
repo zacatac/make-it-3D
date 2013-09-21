@@ -42,3 +42,21 @@ printer=[{
          }
 
 }]
+
+printerModule(printerObject) {
+    <div class="printer-listing">
+        <div class="large-7 columns">
+            <div class="printer-name">$Printer Name</div>
+            <div class="printer-description">$Printer Description</div>
+        </div>
+        <div class="large-2 columns">
+            <div class="printer-rating">$Rating in stars ★★★★☆</div>
+            <div class="printer-price">$Price in cents</div>
+        </div>
+        <div class="large-3 columns">
+            <button>Print!</button>
+            <span> </span>
+        </div>
+    </div>
+
+}
