@@ -25,3 +25,8 @@
     height:20em;
     border:1px solid black;
 }
+
+.printer-listing {
+    padding:2em;
+    border-bottom:1px solid #eee;
+    height:7em;
