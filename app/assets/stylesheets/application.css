@@ -9,5 +9,25 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require foundation_and_overrides
  *= require_tree .
  */
+
+/* GLOBAL STUFF */
+
+/* Header */
+
+input {display:inline-block !important}
+.primary-background {background-color:#2ba6cb !important;}
+
+.gmnoprint {display:none !important}
+
+.header-logo {
+    font-size:3em;
+    text-align:left;
+    font-family: 'Fauna One', serif;
+}
+
+.header-nav {
+    text-align:right;
+}
