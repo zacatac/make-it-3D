@@ -1,15 +1,5 @@
 .gmnoprint {display:none !important}
 
-.header-logo {
-    font-size:3em;
-    text-align:left;
-    font-family: 'Fauna One', serif;
-}
-
-.header-nav {
-    text-align:right;
-}
-
 .map {
     z-index:-1;
     height: 40em;
