@@ -25,8 +25,24 @@
     height:20em;
     border:1px solid black;
 }
+.printer-list-heading {
+    font-size:2em;
+}
 
 .printer-listing {
     padding:2em;
-    border-bottom:1px solid #eee;
+    border-top:1px solid #eee;
     height:7em;
+}
+
+.printer-name {
+    font-size:2em;
+}
+
+.printer-rating {
+    color:gold;
+}
+
+.printer-price {
+    color:green
+}
