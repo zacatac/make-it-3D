@@ -16,3 +16,29 @@ $(function() {
         }
     });
 });
+
+
+
+printer=[{
+         name:'My Printer',
+         id:'1',
+         desc:'This printer prints well, and quickly',
+         rating:4,
+         owner:{
+            lat: 37.87043207190647,
+            long: -122.26816536668125,
+            name: "Maker Man",
+            speed: 24
+         },
+         materials:{
+         0:{
+            material:"ABS",
+            price:22
+            },
+         1:{
+            material:"ceramic",
+            price:15
+            }
+         }
+
+}]
