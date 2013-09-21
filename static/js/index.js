@@ -12,28 +12,7 @@ $(function() {
                 'clickable': false
             });
             
-            $('#map').gmap('setOptions',{MapTypeID:SATELLITE})
+            $('#map').gmap('setOptions',{mapTypeId: google.maps.MapTypeId.ROADMAP})
         }
     });
 });
-
-
-var mapOptions = {
-center: new google.maps.LatLng(37.09024, -95.712891),
-zoom: 4, // smaller number --> zoom out
-mapTypeId: google.maps.MapTypeId.TERRAIN,
-    
-    // removing all map controls
-disableDefaultUI: true,
-    
-    // prevents map from being dragged
-draggable: false,
-    
-    // disabling all keyboard shortcuts
-keyboardShortcuts: false,
-    
-disableDoubleClickZoom: true,
-    
-    // do not clear the map div
-noClear: true
-};
