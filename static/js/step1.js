@@ -42,7 +42,7 @@ printer=[{
          }
 
 }]
-
+/*
 printerModule(printerObject) {
     <div class="printer-listing">
         <div class="large-7 columns">
@@ -60,3 +60,4 @@ printerModule(printerObject) {
     </div>
 
 }
+*/
