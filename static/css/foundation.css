@@ -1321,11 +1321,11 @@ button, .button {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #abebfb;
-  border-color: #7adff9;
+  background-color: #BDECB6;
+  border-color: #BDECC6;
   color: #333333; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #7adff9; }
+    background-color: #9CF0F1; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: #333333; }
   button.secondary, .button.secondary {
