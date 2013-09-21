@@ -45,6 +45,23 @@
         <div class="row">
             <div class="main-content large-8 columns">
                 <div id="map" class="map"></div>
+                <div class="printer-list-description">
+                    17 Printers Nearby
+                </div>
+                <div class="printer-list">
+                    <div class="printer-listing">
+                        <div class="large-7 columns">
+                            Printer Name</div>
+                        <div class="large-2 columns">
+                            <div class="printer-rating">★★★★☆</div>
+                            <div class="printer-price">$$$</div>
+                        </div>
+                        <div class="large-3 columns">
+                            <button>Print!</button>
+                            <span> </span>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
             <div class="side-content large-4 columns">
@@ -68,18 +85,31 @@
                 
                 <label for="ratingDropdown">Minimum Rating</label>
                 <select id="ratingDropdown" class="medium dropdown">
-                    <option DISABLED>Choose a Price Range</option>
-                    <option>0-25¢</option>
-                    <option>25¢-50¢</option>
-                    <option>>50¢</option>
+                    <option DISABLED>Choose a Rating Range</option>
+                    <option>★☆☆☆☆</option>
+                    <option>★★☆☆☆</option>
+                    <option>★★★☆☆</option>
+                    <option>★★★★☆</option>
+                    <option>★★★★★</option>
+                    
                 </select>
                 
-                <label for="priceDropdown">Price Range per Cubic CM</label>
-                <select id="material" class="medium dropdown">
-                    <option DISABLED>Choose a Price Range</option>
-                    <option>0-25¢</option>
-                    <option>25¢-50¢</option>
-                    <option>>50¢</option>
+                <label for="timeDropdown">Turn-Around Time</label>
+                <select id="time" class="medium dropdown">
+                    <option DISABLED>Choose a Time Range</option>
+                    <option>Hours</option>
+                    <option>Days</option>
+                    <option>Weeks</option>
+                </select>
+                
+                <label for="distanceDropdown">Distance</label>
+                <select id="distance" class="medium dropdown">
+                    <option DISABLED>Choose a Distance Range</option>
+                    <option>1 mile</option>
+                    <option>5 miles</option>
+                    <option>10 miles</option>
+                    <option>25 miles</option>
+                    <option>Earth</option>
                 </select>
             </div>
         </div>
