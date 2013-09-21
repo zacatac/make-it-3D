@@ -1,1 +1,47 @@
 .gmnoprint {display:none !important}
+
+.header-logo {
+    font-size:3em;
+    text-align:left;
+    font-family: 'Fauna One', serif;
+}
+
+.header-nav {
+    text-align:right;
+}
+
+.map {
+    z-index:-1;
+    height: 40em;
+}
+.map-overlay {
+    height:40em;
+    margin:0px;
+    margin-top:-40em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.file-upload-wrapper {
+    padding:3em;
+    background:rgba(255,255,255,.8);
+    border-radius:1em;
+    margin-top:10em;
+}
+.file-upload {
+    margin:0px !important;
+    font-size:1.5em !important;
+}
+
+.map-number-wrapper {
+    padding-top:11em;
+}
+
+.map-number {
+    font-size: 5em;
+    font-family: 'Fauna One', serif;
+}
+
+.map-number-description {
+    font-size:2em;
+}
