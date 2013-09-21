@@ -27,6 +27,12 @@
 }
 .printer-list-heading {
     font-size:2em;
+    padding:.5em;
+    background:#abebfb
+}
+
+.printer-listing:nth-child(even) {
+    background-color:#efefef
 }
 
 .printer-listing {
