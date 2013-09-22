@@ -15,4 +15,9 @@ $(function() {
             $('#map').gmap('setOptions',{mapTypeId: google.maps.MapTypeId.ROADMAP})
         }
     });
+    $(document).keypress(function(e) {
+                       if(e.which == 13) {
+                       window.location="step1.html"
+                       }
+                       });
 });

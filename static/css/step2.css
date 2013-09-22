@@ -1,0 +1,54 @@
+.disclaimer {
+	background: #BDECB6;
+	line-height: 200%;
+	border-style:solid;
+	border-width:2px;
+	border-color: #DDDDDD;
+	padding: 25px 25px 25px 25px;
+}
+
+.disclaimer-title {
+    font-size:2em;
+}
+
+.disclaimer-text {
+}
+.step-title {
+	padding: 0px 0px 0px 20px;
+    font-size:2em;
+}
+
+.step-text {
+	padding: 0px 0px 0px 25px;
+}
+
+.instructions {
+	background: #F9F9F9;
+	line-height: 200%;
+	border-style:solid;
+	border-width:2px;
+	border-color: #DDDDDD;
+	padding: 25px 25px 25px 25px;
+}
+
+.table-element {
+	text-align: center;
+	vertical-align:center;
+	background: #F7F7F7;
+	border-style:solid;
+	border-width:2px;
+	border-color: #DDDDDD;
+	padding: 2px 25px 2px 25px;
+
+}
+.table-total {
+	text-align: center;
+	background: #9CF0F1;
+	border-style:solid;
+	border-width:2px;
+	border-color: #DDDDDD;
+	padding: 2px 25px 2px 25px;
+    font-size:1.5em;
+    font-weight:bold;
+
+}

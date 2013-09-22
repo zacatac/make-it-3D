@@ -10,7 +10,6 @@
 
 .stl-image {
     width:100%;
-    height:20em;
 }
 
 .printer-list-heading {
@@ -22,14 +21,14 @@
 .printer-listing:nth-child(even) {
     background-color:#e9e9e9
 }
-.printer-listing:nth-child(odd) {
+.printer-listing:hover, .printer-listing-selected {
     background-color:#ddd
 }
 
 .printer-listing {
     padding:2em;
     border-top:1px solid #eee;
-    height:7em;
+    min-height:7em;
 }
 
 .printer-name {
@@ -42,4 +41,53 @@
 
 .printer-price {
     color:green
+}
+
+.printer-detail-selfie-image {
+    width:100%;
+    height:10em;
+}
+
+.slidesjs-navigation, .printer-detail-selfie-caption {
+    color:black;
+    font-weight:bold;
+    background:#eee;
+    padding:.4em;
+    text-align:center;
+}
+.slidesjs-navigation:hover {
+    background:#abebfb;
+    color:#fff;
+}
+
+.slidesjs-pagination {
+    display:none;
+}
+
+.printer-review-header {
+    font-size:1.5em;
+    display:none;
+}
+
+.printer-review {
+    padding:1em 5em;
+}
+
+.printer-review-name {
+    font-weight:bold
+}
+.printer-review-rating {
+    text-align:right;
+}
+
+
+
+.printer-conversation-message-desc {
+    padding:.5em;
+    padding-top:2em;
+}
+
+.printer-conversation-order {
+    font-size:1.5em;
+    font-weight:bold;
 }

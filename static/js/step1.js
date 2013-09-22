@@ -1,6 +1,5 @@
 $(function() {
   
-    $('#printer-detail-view').foundation('reveal', 'open');
     $('#map').gmap('getCurrentPosition', function(position, status) {
         if ( status === 'OK' ) {
             var clientPosition = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -14,14 +13,33 @@ $(function() {
                 'clickable': false
             });
             
-            $('#map').gmap('setOptions',{mapTypeId: google.maps.MapTypeId.ROADMAP})
         }
     });
 });
 
+$(function() {
+  $('.printer-detail-photos').slidesjs({
+      width: 253,
+      height: 160,
+      navigation:{active:false}
+      });
+    $(".printer-listing .title-bar").click(function () {
+                $(this).parent().children(".printer-details").slideToggle();
+                $(this).parent().toggleClass("printer-listing-selected")
+        });
+  $(".printer-details").slideUp();
+  $(".printer-print").click(function () {
+                            $("#printer-conversation").dialog({
+                                                              width: 500,
+                                                              modal: true,
+                                                              draggable:false,
+                                                              resizable:false});
+                            return false;
+                            })
+  $("#printer-conversation").hide()
+  });
 
-// or directly on the modal
-//$('#printer-detail-view').foundation('reveal', 'close');
+
 
 printer=[{
          name:'My Printer',
