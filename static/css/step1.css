@@ -8,6 +8,10 @@
 
 }
 
+.header-nav {
+    font-family: 'frontage_regular';
+    font-size: .8em;
+}
 .stl-image {
     width:100%;
 }
@@ -97,64 +101,69 @@
 }
 
 .nav {
-    background: #232323;
-    height: 60px;
-    display: inline-block;
+    background: #818181;
+    height: 2em;
+    display: block;
 }
+
  
-.nav li {
-    float: left;
+.nav li { 
     list-style-type: none;
     position: relative;
 }
 
 .nav li a {    
-    color: white;
+    color:black;
     display: block;
-    line-height: 60px;
-    padding: 0 26px;
+    line-height: 2em;
+    padding: 0px 26px;
     text-decoration: none;
     border-left: 1px solid #2e2e2e;
-    
 }
+
 .nav li a:hover {
-    background-color: #2e2e2e;
+    border-right: .2em solid black;
+    background-color: white;
+    transition: all .5s;
+
 }
  
 #settings a {
-    padding: 18px;
-    height: 24px;
-    font-size: 10px;
+    padding: 2em;
+    height: 2em;
     line-height: 24px;
 }
 #options a{
     border-left: 0 none;
 }
-#options>a {
-    background-image: url(triangle.png);
+#options>a {    
     background-position: 85% center;
     background-repeat: no-repeat;
     padding-right: 42px;
 }
 .subnav {
-    visibility: hidden;
-    position: absolute;
+    visibility: visible;    
+    position:absolute;
     top: 110%;
     right: 0;
     width: auto;
     height: auto;
     opacity: 0;
-    transition: all 0.1s;
-    background: #232323;
+    transition: all .5s;
+    border-right: .2em solid black; 
+    background: white;
+    z-index: 40;
 }
 .subnav li {
     float: none;
 }
 .subnav li a {
-    border-bottom: 1px solid #2e2e2e;
+    border-bottom: .2em solid #2e2e2e;
 }
-#options:hover .subnav {
+#options:hover .subnav {    
     visibility: visible;
     top: 100%;
     opacity: 1;
 }
+
+
