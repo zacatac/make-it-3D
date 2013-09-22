@@ -31,7 +31,9 @@ $(function() {
   $(".printer-print").click(function () {
                             $("#printer-conversation").dialog({
                                                               width: 500,
-                                                              modal: true});
+                                                              modal: true,
+                                                              draggable:false,
+                                                              resizable:false});
                             return false;
                             })
   $("#printer-conversation").hide()
