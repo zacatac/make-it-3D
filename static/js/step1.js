@@ -13,11 +13,17 @@ $(function() {
                 'clickable': false
             });
             
-            $('#map').gmap('setOptions',{mapTypeId: google.maps.MapTypeId.ROADMAP})
         }
     });
 });
 
+$(function() {
+  $('.printer-detail-photos').slidesjs({
+      width: 253,
+      height: 160,
+      navigation:{active:false}
+      });
+  });
 
 printer=[{
          name:'My Printer',
