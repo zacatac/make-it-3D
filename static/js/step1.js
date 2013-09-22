@@ -23,10 +23,11 @@ $(function() {
       height: 160,
       navigation:{active:false}
       });
-  $(".printer-listing").click(function () {
-                      $(this).toggle("slow");
-                      }); 
-
+    $(".printer-listing .title-bar").click(function () {
+                $(this).parent().children(".printer-details").slideToggle();
+                $(this).parent().toggleClass("printer-listing-selected")
+        });
+  $(".printer-details").slideUp();
   });
 
 
