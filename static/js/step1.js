@@ -1,6 +1,5 @@
 $(function() {
   
-    $('#printer-detail-view').foundation('reveal', 'open');
     $('#map').gmap('getCurrentPosition', function(position, status) {
         if ( status === 'OK' ) {
             var clientPosition = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
@@ -19,9 +18,6 @@ $(function() {
     });
 });
 
-
-// or directly on the modal
-//$('#printer-detail-view').foundation('reveal', 'close');
 
 printer=[{
          name:'My Printer',
