@@ -28,6 +28,13 @@ $(function() {
                 $(this).parent().toggleClass("printer-listing-selected")
         });
   $(".printer-details").slideUp();
+  $(".printer-print").click(function () {
+                            $("#printer-conversation").dialog({
+                                                              width: 500,
+                                                              modal: true});
+                            return false;
+                            })
+  $("#printer-conversation").hide()
   });
 
 

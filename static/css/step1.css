@@ -10,7 +10,6 @@
 
 .stl-image {
     width:100%;
-    height:20em;
 }
 
 .printer-list-heading {
@@ -79,4 +78,16 @@
 }
 .printer-review-rating {
     text-align:right;
+}
+
+
+
+.printer-conversation-message-desc {
+    padding:.5em;
+    padding-top:2em;
+}
+
+.printer-conversation-order {
+    font-size:1.5em;
+    font-weight:bold;
 }
