@@ -18,6 +18,7 @@ $(function() {
 });
 
 $(function() {
+  $(document).foundation();
   $('.printer-detail-photos').slidesjs({
       width: 253,
       height: 160,
