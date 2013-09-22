@@ -1,10 +1,7 @@
 .disclaimer {
-	background: #BDECB6;
 	line-height: 200%;
-	border-style:solid;
-	border-width:2px;
-	border-color: #DDDDDD;
 	padding: 25px 25px 25px 25px;
+	margin-top: 121px;
 }
 
 .disclaimer-title {
