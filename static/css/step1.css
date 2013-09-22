@@ -18,34 +18,53 @@
 
 .printer-list-heading {
     font-size:2em;
-    padding:.5em;
-    background:#abebfb
+    padding: 1em;
+    background: #FFA451;
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 2px;
 }
 
 .printer-listing:nth-child(even) {
-    background-color:#e9e9e9
+    background-color: #6aae60
 }
 .printer-listing:hover, .printer-listing-selected {
-    background-color:#ddd
+    background-color: #69a160;
 }
 
 .printer-listing {
     padding:2em;
     border-bottom: 2px solid white;
     min-height:7em;
-    background: #BDECB6;
+    background: #7EC074;
 }
 
+
 .printer-name {
-    font-size:2em;
+    font-size: 1.8em;
+    color: white;
+    font-family: "frontage_regular";
+    letter-spacing: -8px;
+    position: relative;
+    left: -8px;
+    margin-bottom: 8px;
+}
+
+.printer-description {
+    color: white;
 }
 
 .printer-rating {
-    color:gold;
+    color:white;
 }
 
 .printer-price {
-    color:green
+    color:white;
+    font-size: 1.2em;
+}
+
+.printer-list .printer-details {
+    margin-top: 20px;   
 }
 
 .printer-detail-selfie-image {
@@ -54,11 +73,12 @@
 }
 
 .slidesjs-navigation, .printer-detail-selfie-caption {
-    color:black;
     font-weight:bold;
-    background:#eee;
+    background: transparent;
     padding:.4em;
     text-align:center;
+    border: 2px solid white;
+    color: white;
 }
 .slidesjs-navigation:hover {
     background:#abebfb;
@@ -130,6 +150,13 @@
 .printer-print {
     padding: 10px;
     margin-top: 0;
+}
+
+.your-file {
+    background: #FFA451;
+    padding: 1em;
+    border-bottom: 2px solid white;
+    margin-bottom: 0;
 }
 
 .current-choice {
