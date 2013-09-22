@@ -147,7 +147,7 @@
     text-align: center;
 }
 
-.printer-print {
+.printer-print, .printer-message {
     padding: 10px;
     margin-top: 0;
 }
