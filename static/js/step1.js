@@ -29,7 +29,7 @@ $(function() {
                 $(this).parent().toggleClass("printer-listing-selected")
         });
   $(".printer-details").slideUp();
-  $(".printer-print").click(function (e) {
+  $(".printer-message").click(function (e) {
     $("#printer-conversation").dialog({
       width: 500,
       modal: true,
@@ -38,6 +38,9 @@ $(function() {
     });
     e.preventDefault();
   });
+  $(".printer-print").click(function (e) {
+    window.location="step2.html"
+    });
   $("#printer-conversation").hide()
   $(".current-choice").hide();
   $(".f-dropdown li").click(function () {
