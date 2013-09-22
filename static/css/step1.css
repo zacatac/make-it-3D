@@ -29,7 +29,7 @@
 .printer-listing {
     padding:2em;
     border-top:1px solid #eee;
-    height:7em;
+    min-height:7em;
 }
 
 .printer-name {
@@ -42,4 +42,9 @@
 
 .printer-price {
     color:green
+}
+
+.printer-detail-selfie-image {
+    width:100%;
+    height:10em;
 }
