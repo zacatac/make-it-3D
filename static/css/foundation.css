@@ -10,7 +10,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: #FFFFFF;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1039,7 +1039,7 @@ td {
 
 /* Default Link Styles */
 a {
-  color: #abebfb;
+  color: white;
   text-decoration: none;
   line-height: inherit; }
   a:hover, a:focus {

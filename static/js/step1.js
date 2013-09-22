@@ -29,14 +29,15 @@ $(function() {
                 $(this).parent().toggleClass("printer-listing-selected")
         });
   $(".printer-details").slideUp();
-  $(".printer-print").click(function () {
-                            $("#printer-conversation").dialog({
-                                                              width: 500,
-                                                              modal: true,
-                                                              draggable:false,
-                                                              resizable:false});
-                            return false;
-                            })
+  $(".printer-print").click(function (e) {
+    $("#printer-conversation").dialog({
+      width: 500,
+      modal: true,
+      draggable:false,
+      resizable:false
+    });
+    e.preventDefault();
+  });
   $("#printer-conversation").hide()
   });
 

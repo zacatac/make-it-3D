@@ -69,7 +69,7 @@
                                 <div class="printer-price">$$$</div>
                             </div>
                             <div class="large-3 columns">
-                                <button class="printer-print">Print!</button>
+                                <button class="printer-print white-button">Print!</button>
                                 <span> </span>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                                 <div class="printer-price">$$$</div>
                             </div>
                             <div class="large-3 columns">
-                                <button class="printer-print">Print!</button>
+                                <button class="printer-print white-button">Print!</button>
                                 <span> </span>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                                 <div class="printer-price">$$$</div>
                             </div>
                             <div class="large-3 columns">
-                                <button class="printer-print">Print!</button>
+                                <button class="printer-print white-button">Print!</button>
                                 <span> </span>
                             </div>
                         </div>
@@ -203,62 +203,72 @@
                 
             </div>
             <div class="side-content large-4 columns">
-                <div class="stl-image-wrapper">
+                <div id="gnome-image" class="stl-image-wrapper">
                     <img class="stl-image" src="img/model.jpg" />
                 </div>
+                <div id="nav">
+                <div id="region">
+                    <a href="#" class="sort-dropdown cf"data-dropdown="Material-dropdown">
+                        <div class="dropdown-img"><img src="img/material.png" alt="distance"></div>
+                        Material
+                    </a>
+                    <ul id="Material-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">ABS Plastic</a></li>
+                        <li><a href="#">PLA Plastic</a></li>
+                        <li><a href="#">Ceramic</a></li>
+                    </ul>
+                </div>
                 
-                <label for="materialDropdown">Material</label>
-                <select id="materialDropdown" class="medium dropdown">
-                    <option DISABLED>Choose a Material</option>
-                    <option>ABS Plastic</option>
-                    <option>PLA Plastic</option>
-                    <option>Ceramic</option>
-                </select>
-                
+                <div id="region">
+                    <a href="#" class="sort-dropdown cf" data-dropdown="price-dropdown">
+                        <div class="dropdown-img"><img src="img/money.png" alt="distance"></div>
+                        Price range per cubic cm
+                    </a>
+                    <ul id="price-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">0-25¢</a></li>
+                        <li><a href="#">25¢-50¢</a></li>
+                        <li><a href="#">>50¢</a></li>
+                    </ul>
+                </div>
 
-                <label for="priceDropdown">Price Range per Cubic CM</label>
-                <select id="material" class="medium dropdown">
-                    <option DISABLED>Choose a Price Range</option>
-                    <option>0-25¢</option>
-                    <option>25¢-50¢</option>
-                    <option>>50¢</option>
-                </select>
+                <div id="region">
+                    <a href="#" class="sort-dropdown cf" data-dropdown="rating-dropdown">
+                        <div class="dropdown-img"><img src="img/star.png" alt="distance"></div>
+                        Minimum Rating
+                    </a>
+                    <ul id="rating-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">★★★★★</a></li>
+                        <li><a href="#">★☆☆☆☆</a></li>
+                        <li><a href="#">★★☆☆☆</a></li>
+                        <li><a href="#">★★★☆☆</a></li>
+                        <li><a href="#">★★★★☆</a></li>
+                    </ul>   
+                </div>
 
-                <label for="ratingDropdown">Minimum Rating</label>
-                <select id="ratingDropdown" class="medium dropdown">
-                    <option DISABLED>Choose a Rating Range</option>
-                    <option>★★★★★</option>
-                    <option>★☆☆☆☆</option>
-                    <option>★★☆☆☆</option>
-                    <option>★★★☆☆</option>
-                    <option>★★★★☆</option>
+                <div>
+                    <a href="#"  class="sort-dropdown cf" data-dropdown="time-dropdown">
+                        <div class="dropdown-img"><img src="img/stopwatch.png" alt="distance"></div>
+                        Turn-around Time
+                    </a>
+                    <ul id="time-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">Hours</a></li>
+                        <li><a href="#">Minutes</a></li>
+                        <li><a href="#">Days</a></li>
+                    </ul>
+                </div>
                 
-                </select>
-
-                <label for="timeDropdown">Turn-Around Time</label>
-                <select id="time" class="medium dropdown">
-                    <option DISABLED>Choose a Time Range</option>
-                    <option>Hours</option>
-                    <option>Days</option>
-                    <option>Weeks</option>
-                </select>
-                
-                <label for="distanceDropdown">Distance</label>
-                <select id="distance" class="medium dropdown">
-                    <option DISABLED>Choose a Distance Range</option>
-                    <option>1 mile</option>
-                    <option>5 miles</option>
-                    <option>10 miles</option>
-                    <option>25 miles</option>
-                    <option>Earth</option>
-                </select>
-                
-                <a href="#" data-dropdown="drop1">Has Dropdown</a>
-                <ul id="drop1" class="f-dropdown" data-dropdown-content>
-                    <li><a href="#">This is a link</a></li>
-                    <li><a href="#">This is another</a></li>
-                    <li><a href="#">Yet another</a></li>
-                </ul>
+                    <a href="#" class="sort-dropdown cf" data-dropdown="distance-dropdown">
+                        <div class="dropdown-img"><img src="img/earth.png" alt="distance"></div>
+                        Distance
+                    </a>
+                    <ul id="distance-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">1 mile</a></li>
+                        <li><a href="#">5 miles</a></li>
+                        <li><a href="#">10 miles</a></li>
+                        <li><a href="#">25 miles</a></li>
+                        <li><a href="#">Earth</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         
@@ -279,23 +289,18 @@
         
         <!-- Footer -->
         
-        <footer class="row">
-            <div class="large-12 columns">
-                <hr />
+        <footer>
                 <div class="row">
-                    <div class="large-6 columns">
-                        <p>&copy; Protofy 2013</p>
-                    </div>
-                    <div class="large-6 columns">
-                        <ul class="inline-list right">
-                            <li><a href="#">Find a Printer</a></li>
-                            <li><a href="#">List a Printer</a></li>
-                            <li><a href="#">About Us</a></li>
-                        </ul>
+                    <div class="large-8 columns large-centered">
+                        <img src="img/feather.png" alt="feather" />
+                        <h4 class="headline quote">
+                            "The best way to predict the future is to create it."
+                        </h4>
+                        <h5 class="headline quote-author">- Abraham Lincoln</h5>
+                        <h6 class="headline footer-text">Made with love in berkeley, ca</h6>
                     </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
         <script>
             document.write('<script src=' +
                            ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
