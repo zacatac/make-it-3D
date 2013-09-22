@@ -4,6 +4,11 @@
 	z-index: 10;
 }
 
+.headline {
+	color: white;
+}
+
+
 .primary-background {background-color:#2ba6cb !important;}
 
 /* Hide Google Stuff */
@@ -51,6 +56,29 @@
 .white-button-inv:hover {
 	background: transparent;
 	color: white;
+}
+
+footer {
+	background: #FFA451;
+	text-align: center;
+	padding: 30px;
+}
+
+footer img {
+	margin: 3em auto;
+}
+
+footer .quote {
+	font-size: 1.1em;
+}
+
+footer .quote-author {
+	font-size: .6em;
+	margin-bottom: 60px;
+}
+
+footer .footer-text {
+	font-size: .4em;
 }
 
 ::-webkit-input-placeholder {
