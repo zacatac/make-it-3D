@@ -200,62 +200,57 @@
                 
             </div>
             <div class="side-content large-4 columns">
-                <div class="stl-image-wrapper">
+                <div id="gnome-image" class="stl-image-wrapper">
                     <img class="stl-image" src="img/model.jpg" />
                 </div>
+                <div id="nav">
+                <div id="region">
+                    <a href="#" class="sort-dropdown"data-dropdown="Material-dropdown">Material</a>
+                    <ul id="Material-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">ABS Plastic</a></li>
+                        <li><a href="#">PLA Plastic</a></li>
+                        <li><a href="#">Ceramic</a></li>
+                    </ul>
+                </div>
                 
-                <label for="materialDropdown">Material</label>
-                <select id="materialDropdown" class="medium dropdown">
-                    <option DISABLED>Choose a Material</option>
-                    <option>ABS Plastic</option>
-                    <option>PLA Plastic</option>
-                    <option>Ceramic</option>
-                </select>
-                
+                <div id="region">
+                    <a href="#" class="sort-dropdown" data-dropdown="price-dropdown">Price range per cubic cm</a>
+                    <ul id="price-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">0-25¢</a></li>
+                        <li><a href="#">25¢-50¢</a></li>
+                        <li><a href="#">>50¢</a></li>
+                    </ul>
+                </div>
 
-                <label for="priceDropdown">Price Range per Cubic CM</label>
-                <select id="material" class="medium dropdown">
-                    <option DISABLED>Choose a Price Range</option>
-                    <option>0-25¢</option>
-                    <option>25¢-50¢</option>
-                    <option>>50¢</option>
-                </select>
+                <div id="region">
+                    <a href="#" class="sort-dropdown" data-dropdown="rating-dropdown">Minimum Rating</a>
+                    <ul id="rating-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">★★★★★</a></li>
+                        <li><a href="#">★☆☆☆☆</a></li>
+                        <li><a href="#">★★☆☆☆</a></li>
+                        <li><a href="#">★★★☆☆</a></li>
+                        <li><a href="#">★★★★☆</a></li>
+                    </ul>   
+                </div>
 
-                <label for="ratingDropdown">Minimum Rating</label>
-                <select id="ratingDropdown" class="medium dropdown">
-                    <option DISABLED>Choose a Rating Range</option>
-                    <option>★★★★★</option>
-                    <option>★☆☆☆☆</option>
-                    <option>★★☆☆☆</option>
-                    <option>★★★☆☆</option>
-                    <option>★★★★☆</option>
+                <div>
+                    <a href="#"  class="sort-dropdown" data-dropdown="time-dropdown">Turn-around Time</a>
+                    <ul id="time-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">Hours</a></li>
+                        <li><a href="#">Minutes</a></li>
+                        <li><a href="#">Days</a></li>
+                    </ul>
+                </div>
                 
-                </select>
-
-                <label for="timeDropdown">Turn-Around Time</label>
-                <select id="time" class="medium dropdown">
-                    <option DISABLED>Choose a Time Range</option>
-                    <option>Hours</option>
-                    <option>Days</option>
-                    <option>Weeks</option>
-                </select>
-                
-                <label for="distanceDropdown">Distance</label>
-                <select id="distance" class="medium dropdown">
-                    <option DISABLED>Choose a Distance Range</option>
-                    <option>1 mile</option>
-                    <option>5 miles</option>
-                    <option>10 miles</option>
-                    <option>25 miles</option>
-                    <option>Earth</option>
-                </select>
-                
-                <a href="#" data-dropdown="drop1">Has Dropdown</a>
-                <ul id="drop1" class="f-dropdown" data-dropdown-content>
-                    <li><a href="#">This is a link</a></li>
-                    <li><a href="#">This is another</a></li>
-                    <li><a href="#">Yet another</a></li>
-                </ul>
+                    <a href="#" class="sort-dropdown" data-dropdown="distance-dropdown">Distance</a>
+                    <ul id="distance-dropdown" class="f-dropdown" data-dropdown-content>
+                        <li><a href="#">1 mile</a></li>
+                        <li><a href="#">5 miles</a></li>
+                        <li><a href="#">10 miles</a></li>
+                        <li><a href="#">25 miles</a></li>
+                        <li><a href="#">Earth</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         
