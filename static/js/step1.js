@@ -23,7 +23,13 @@ $(function() {
       height: 160,
       navigation:{active:false}
       });
+  $(".printer-listing").click(function () {
+                      $(this).toggle("slow");
+                      }); 
+
   });
+
+
 
 printer=[{
          name:'My Printer',

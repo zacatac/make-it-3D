@@ -64,3 +64,19 @@
 .slidesjs-pagination {
     display:none;
 }
+
+.printer-review-header {
+    font-size:1.5em;
+    display:none;
+}
+
+.printer-review {
+    padding:1em;
+}
+
+.printer-review-name {
+    font-weight:bold
+}
+.printer-review-rating {
+    text-align:right;
+}
