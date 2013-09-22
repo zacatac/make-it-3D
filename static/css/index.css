@@ -50,21 +50,6 @@ input.file-upload:focus {
     border-left: none;
 }
 
-
-.map-number-wrapper {
-    padding-top:11em;
-}
-
-.map-number {
-    font-size: 3em;
-    font-family: 'frontage_regular', serif;
-}
-
-.map-number-description {
-    font-family: 'frontage_regular', serif;
-    font-size:1em;
-}
-
 .header-nav {
     font-family: 'frontage_regular';
     font-size: .8em;
@@ -72,4 +57,14 @@ input.file-upload:focus {
 
 .left_column {
     font-size: .2em;
+}
+
+.below-the-fold {
+    padding-top: 4em;
+    margin-bottom: 4em;
+}
+
+.below-the-fold-img {
+    height: 200px;
+    margin-bottom: 14px;
 }
