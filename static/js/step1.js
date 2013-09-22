@@ -39,6 +39,13 @@ $(function() {
     e.preventDefault();
   });
   $("#printer-conversation").hide()
+  $(".f-dropdown li").click(function () {
+            $(this).parent().children("li").removeClass("dropdown-selected")
+            $(document).foundation('dropdown', 'close', $('[data-dropdown-content]'))
+            $(this).parent().parent().children("a").children("span").text($(this).text())
+            $(this).addClass("dropdown-selected")
+                         return false;
+        })
   });
 
 
