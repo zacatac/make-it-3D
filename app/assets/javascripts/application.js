@@ -11,8 +11,14 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery-ui/jquery-ui
 //= require jquery_ujs
 //= require foundation
 //= require_tree .
 
-$(function(){ $(document).foundation(); });
+
+
+$(function(){ 
+	$(document).foundation(); 
+	window.mkit = window.mkit || {};
+});
